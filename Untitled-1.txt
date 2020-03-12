@@ -1,0 +1,447 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blessed Trust | Application Form</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" " />
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+	
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<!-- //css files -->
+	
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<!-- //google fonts -->
+	
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+	<script type="text/javascript">
+	function emailvalidate(){
+
+var emailtxt = document.getElementById('txt_email');
+var mainemail = emailtxt.value;
+var regexpres = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+//testing the regular expression for the email in email txtbox (regexpres.test(mainemail))
+if(regexpres.test(mainemail))
+{
+	emailtxt.style.borderColor = "green";
+	emailtxt.style.boxShadow ="3px 2px 4px green";
+}else {
+	emailtxt.style.borderColor = "red";
+	emailtxt.style.boxShadow ="3px 2px 4px red";
+}
+return false;
+}
+
+</script>
+</head>
+<body>
+
+<!-- header -->
+<?php include("nav.php")?>
+<!-- //header -->
+
+<!-- inner-banner -->
+<section class="inner-banner" id="home">
+	<div class="inner-layer">
+		<div class="container">
+		</div>
+	</div>
+</section>
+<!-- //inner-banner -->
+
+<!-- breadcrumb -->
+<div class="breadcrumb-w3pvt bg-light">
+	<div class="container">
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="breadcrumb-item" aria-current="page">Application Form</li>
+		</ol>
+	</nav>
+	</div>
+</div>
+<!-- //breadcrumb -->
+	
+<!-- contact -->
+<section class="contact py-5">
+	<div class="container py-sm-5">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 contact-form mt-md-0 mt-4">
+				<h4 class="mb-sm-4 mb-3 w3f_title">Application Form</h4>
+
+				<p class="required">* Required</p>
+				<p>&nbsp;</p>
+				<!-- link -->
+				
+				<form name="contactform" id="contactform" method="post" action="lib/ff.php?fm=3" >
+				<div id="s1">
+                        <div class="form-group">
+						  <label>Full Name:</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="name" required placeholder="Enter Name" name="name">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Phone:</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" required="required" name="phone">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Address:</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder=""required="required"  name="addrss">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Gender</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" required="required"  name="gender">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Means of Identification</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email"required  placeholder="" required="required" name="idcard">
+						</div>
+                    
+						<!-- <div class="form-group">
+						  <label>Identification No</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="idno">
+						</div> -->
+                    
+						<div class="form-group">
+						  <label>Nationality</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email"required  placeholder=""  name="nationality">
+						</div>
+                    
+						<div class="form-group">
+						  <label>State of Origin</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder=""  name="soo">
+						</div>
+                            
+                        <button type="button" class="btn btn-default" onclick="nxt('#s2')">Next</button>
+                    </div>
+                    
+                    
+                    <div id="s2" style="display:none;">
+						<div class="form-group">
+						  <label>LGA </label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" placeholder="" name="lga">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Hometown</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="hometown">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Date of Birth</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="dob">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Place of Birth</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required  placeholder="" name="pob">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Marital Status</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="mstat">
+						</div>
+                    
+						<!-- <div class="form-group">
+						  <label>Spouse Name</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="sname">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Spouse Address</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="saddrss">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Spouse Phone No</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="sphone">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Bank Verification Number (BVN)</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="bvn">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Next of Kin (NOK)</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="nok">
+						</div>
+                   
+						<div class="form-group">
+						  <label>Relationship</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="rela">
+						</div>
+                    
+						<div class="form-group">
+						  <label>NOK Address</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="nokaddrss">
+						</div>
+                    
+						<div class="form-group">
+						  <label>NOK Telephone</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="nokphone">
+						</div>
+                    
+						<div class="form-group">
+						  <label>NOK Email</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="nokemail">
+						</div>
+                         -->
+                        <button type="button" class="btn btn-default" onclick="prev('#s1')">Previous</button> 
+                        <button type="button" class="btn btn-default" onclick="nxt('#s3')">Next</button>
+                     </div>
+                    
+                    
+                    
+                    <div id="s3" style="display:none;">
+                    <legend>Education</legend>
+                        
+                    
+						<div class="form-group">
+						  <label>Institution Attended</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="instattended">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Qualification</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="qual">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Course of Study</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="course">
+						</div>
+                    
+						<!-- <div class="form-group">
+						  <label>Professional Certification</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="cert">
+						</div>
+                       -->
+						<!-- <div class="form-group">
+						  <label>Detail of any other training Received</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="training">
+						</div>
+                     -->
+						<!-- <div class="form-group">
+						  <label>Spoken Languages</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="lang">
+						</div> -->
+                    
+                        <p>Current/Last Employment History</p>
+						<div class="form-group">
+						  <label>Name and Address of Company</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" placeholder="" name="cname">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Company Phone Number</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="cphone">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Company Email</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email"required  placeholder="" onkeyup="emailvalidate()" name="cemail">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Position</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email"required  placeholder="" name="postt">
+						</div>
+                    <!--  
+						<div class="form-group">
+						  <label>Details of Responsibilities</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="detailresp">
+						</div> -->
+                    
+						<div class="form-group">
+						  <label>Salary</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="salary">
+						</div>
+                                           
+						<div class="form-group">
+						  <label>Reason for leaving</label><i class="fa fa-asteriks">*</i>
+						  <input type="text" class="form-control" id="email" required placeholder="" name="reason">
+						</div>
+                        
+                        <button type="button" class="btn btn-default" onclick="prev('#s2')">Previous</button>
+						<!-- <button type="button" class="btn btn-default" onclick="nxt('#s5')">Next</button> -->
+						<button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                                       
+                    
+                    
+                    <!-- <div id="s4" style="display:none;"> -->
+						<!-- <div class="form-group">
+						  <label>Outstanding Loan</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="loan">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Repayment Plan</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="pplan">
+						</div>
+                    <p>Have you been involved in any issue while at work? </p>
+						<div class="form-group">
+						  <label>insubordination</label>
+						  <select name="insubordination">
+                          <option value="Yes">Yes</option> 
+                          <option value="No">No</option>  
+                          </select>
+						</div>
+                        
+                        <div class="form-group">
+						  <label>disciplinary issues</label>
+						  <select name="disciplinary">
+                          <option value="Yes">Yes</option> 
+                          <option value="No">No</option>  
+                          </select>
+						</div>
+                        
+                       
+                                                
+						<div class="form-group">
+						  <label>What happened?</label>
+						  <textarea name="whathappened"></textarea>
+						</div> -->
+                        
+                    
+                            
+                    
+						<!-- 
+                    
+                        
+                        <p>Personal Reference</p>
+						<div class="form-group">
+						  <label>Referee Name </label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="referee">
+						</div> -->
+                        <!-- <button type="button" class="btn btn-default" onclick="prev('#s3')">Previous</button>
+                        <button type="button" class="btn btn-default" onclick="nxt('#s5')">Next</button>
+                     </div> -->
+                    
+                    
+                    
+                    <!-- <div id="s5" style="display:none;"> -->
+						<!-- <div class="form-group">
+						  <label>Dep </label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="ofnmae">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Office Address </label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="ofaddrss">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Department</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="ofdept">
+						</div> -->
+                    
+						<!-- <div class="form-group">
+						  <label>Office/ Personal Telephone </label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="oftel">
+						</div> -->
+                    
+                        
+                        <!-- <p><b>Medical History</b></p>
+						<div class="form-group">
+						  <label>Have you suffered from any major illness</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="illness">
+						</div>
+                    
+						<div class="form-group">
+						  <label>If so, when</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="duration">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Type of illness</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="illnesstype">
+						</div>
+                    
+						<div class="form-group">
+						  <label>If yes, please give details</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="email">
+						</div>
+                    
+						<div class="form-group">
+						  <label>If required to undergo a medical check-up, would you agree</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="checkup">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Extra-Curricular Activities Give details of your hobbies</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="hobby">
+						</div>
+                    
+						<div class="form-group">
+						  <label>Notice required from present Employer</label>
+						  <input type="text" class="form-control" id="email" placeholder="" name="notice">
+						</div>
+You will have to wait while we process your application , we will contact you through the information provided on this form.
+Application /processing fee is N2000 (two thousand naiara only) ……………………………… NOT REFUNDABLE<p>&nbsp;</p>
+<p> By clicking the submit button,  I declare that the statement made in this Application form and in any documents supplied by me to support my application are, the best of my knowledge and belief, factually correct and true. I understand that, should any such statements be found to be false or misleading, my application/processing fee will not be refunded and my application will be subject to review and may be terminated. 
+</p> -->
+                        
+  <!-- <button type="button" class="btn btn-default" onclick="prev('#s3')">Previous</button>
+<button type="submit" class="btn btn-default">Submit</button> -->
+<!-- </div> -->
+										
+						
+			</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //contact -->
+
+<!-- footer -->
+<?php include("footer.php")?>
+</body>
+
+<script type="text/javascript">
+     function nxt(x){ 
+     $("#s1").css("display","none")
+     $("#s2").css("display","none")
+     $("#s3").css("display","none")
+     $("#s4").css("display","none")
+     $("#s5").css("display","none")
+     $(x).css("display","block")
+}
+
+  function prev(x){ 
+     $("#s1").css("display","none")
+     $("#s2").css("display","none")
+     $("#s3").css("display","none")
+     $("#s4").css("display","none")
+     $("#s5").css("display","none")
+     $(x).css("display","block")
+} 
+</script>
+    
+</html>

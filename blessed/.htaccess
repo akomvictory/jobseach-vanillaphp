@@ -1,0 +1,13 @@
+#turn rewrite engine on
+RewriteEngine on
+Rewritecond %{REQUEST_FILENAME} !-d
+Rewritecond %{REQUEST_FILENAME} !-f
+
+#Rewrite for dash/index.php
+RewriteRule ^user dash/index.php [NC,L]
+RewriteRule ^student web/index.php [NC,L]
+RewriteRule ^test web/test.html [NC,L]
+RewriteRule ^cbt -/login.php [NC,L]
+RewriteRule ^signup -/signup.php [NC,L]
+RewriteRule ^access admin/index.php [NC,L]
+RewriteRule ^process/([0-9]+) lib/ff.php?fm=$1 [NC,L]

@@ -1,0 +1,216 @@
+
+ 	<?php er()?>
+   
+<?php include("lib/f.php")?>
+
+<?php include("lib/f.php")?>
+		<?php msgx();?>
+<?php msgx();?>
+
+    <tr>
+   <td>Hobbies</td> 
+    <td> <?php aproko("hobbies")?> </td> 
+</tr>
+
+      <!-- <tr>
+   <td>Total Transaction Per Day</td> 
+    <td>//<?php aprok("ttpd")?></td> 
+</tr>   -->
+ <tr>
+   <td>Count</td> 
+    <td><?php aprok("countt")?></td> 
+</tr>  
+ <tr>
+   <td>Volume</td> 
+    <td><?php aprok("volumee")?></td> 
+</tr>  
+ <tr>
+   <td>Near to Bank</td> 
+    <td><?php aprok("neartobank")?></td> 
+</tr>  
+
+ <tr>
+   <td>Date</td> 
+    <td><?php aprok("rdate")?></td> 
+</tr> 
+
+<tr>
+   <td>BVN</td> 
+    <td><?php aprok("bvn")?></td> 
+</tr>
+
+ <tr>
+   <td>Account Number</td> 
+    <td><?php aprok("accno")?></td> 
+</tr>  
+  
+
+<tr>
+   <td>Bank</td> 
+    <td><?php aprok("bank")?></td> 
+</tr>  
+  
+    <td>PHCN</td> 
+    <td><?php aprok("phcn")?></td> 
+</tr>  
+ <tr>
+   <td>CAC</td> 
+    <td><?php aprok("cac")?></td> 
+</tr>  
+  <tr>
+   <td>Agent</td> 
+    <td><?php aprok("agent")?></td> 
+</tr> 
+
+
+
+
+application form
+
+
+ <tr>
+   <td>ID No</td> 
+    <td><?php aproko("idno")?></td> 
+</tr> 
+
+<tr>
+   <td>Spouse</td> 
+    <td><?php aproko("spousename")?></td> 
+</tr> 
+ <tr>
+   <td>Spouse Address</td> 
+    <td><?php aproko("spouseaddress")?></td> 
+</tr> 
+ <tr>
+   <td>Spouse Phone</td> 
+    <td><?php aproko("spousephone")?></td> 
+</tr> 
+ <tr>
+   <td>BVN</td> 
+    <td><?php aproko("bvn")?></td> 
+</tr> 
+ <tr>
+   <td>Next Of Kin</td> 
+    <td> <?php aproko("nok")?> </td> 
+</tr> 
+ <tr>
+   <td>Relationship</td> 
+    <td> <?php aproko("rela")?> </td> 
+</tr> 
+ <tr>
+   <td>Address</td> 
+    <td> <?php aproko("nokadd")?> </td> 
+</tr> 
+
+ <tr>
+   <td>Address</td> 
+    <td><?php aproko("address")?></td> 
+</tr> 
+ <tr>
+   <td>Phone</td> 
+    <td> <?php aproko("noktel")?> </td> 
+</tr> 
+ <tr>
+   <td>Email</td> 
+    <td> <?php aproko("nokemail")?> </td> 
+</tr> 
+ <tr>
+
+ <tr>
+   <td>Certification</td> 
+    <td> <?php aproko("procert")?> </td> 
+</tr> 
+ <tr>
+   <td>Training Detail</td> 
+    <td> <?php aproko("trainingdetail")?> </td> 
+</tr> 
+ <tr>
+   <td>Language</td> 
+    <td> <?php aproko("lang")?> </td> 
+</tr> 
+
+
+<tr>
+   <td>Responsibility</td> 
+    <td> <?php aproko("respdetail")?> </td> 
+</tr> 
+
+<td>Loan</td> 
+    <td> <?php aproko("loan")?> </td> 
+</tr> 
+ <tr>
+   <td>Repay</td> 
+    <td> <?php aproko("repay")?> </td> 
+</tr> 
+ <tr>
+   <td>Insobodination</td> 
+    <td> <?php aproko("insobodination")?> </td> 
+</tr> 
+ <tr>
+   <td>Discipline</td> 
+    <td> <?php aproko("discipl")?> </td> 
+</tr> 
+ <tr>
+   <td>Cash Shortage</td> 
+    <td> <?php aproko("cashshortage")?> </td> 
+</tr> 
+ <tr>
+   <td>Lost Clients</td> 
+    <td> <?php aproko("lossclients")?> </td> 
+</tr> 
+ <tr>
+   <td>Detail</td> 
+    <td> <?php aproko("lossdetail")?> </td> 
+</tr> 
+ <tr>
+   <td>Special Project</td> 
+    <td> <?php aproko("specialproject")?> </td> 
+</tr> 
+ <tr>
+   <td>Duration</td> 
+    <td> <?php aproko("duration")?> </td> 
+</tr> 
+ <tr>
+   <td>Referee</td> 
+    <td> <?php aproko("referee")?> </td> 
+</tr> 
+ <tr>
+   <td>Office Name</td> 
+    <td> <?php aproko("officename")?> </td> 
+</tr> 
+ <tr>
+   <td>Office Address</td> 
+    <td> <?php aproko("officeaddress")?> </td> 
+</tr> 
+ <tr>
+   <td>Department</td> 
+    <td> <?php aproko("department")?> </td> 
+</tr> 
+ <tr>
+   <td>Office Telephone</td> 
+    <td> <?php aproko("officetel")?> </td> 
+</tr> 
+ <tr>
+   <td>Illness</td> 
+    <td> <?php aproko("illness")?> </td> 
+</tr> 
+ <tr>
+   <td>Date of Illness</td> 
+    <td> <?php aproko("illnesswhen")?> </td> 
+</tr> 
+ <tr>
+   <td>Type of Illness</td> 
+    <td> <?php aproko("illnesstype")?> </td> 
+</tr> 
+ <tr>
+   <td>Illness Detail</td> 
+    <td> <?php aproko("illnessdet")?> </td> 
+</tr> 
+ <tr>
+   <td>Checkup</td> 
+    <td> <?php aproko("checkup")?> </td> 
+</tr> 
+<tr>
+   <td>Date</td> 
+    <td> <?php aproko("rdate")?> </td> 
+</tr>

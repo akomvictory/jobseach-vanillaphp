@@ -1,0 +1,214 @@
+
+
+
+
+/* events notice and adverts */
+
+
+
+
+
+.landing{
+    position:relative;
+    /* top:24px; */
+    background-image:url(../images/lady.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh;
+    width:99vw;
+    margin-right:30px;
+    /* margin-bottom:40px; */
+    /* margin-top:20px; */
+}
+
+/* the a in rgba is an alpha value for setting opacity
+bkos rgb cant work for transparency */
+.landing-inner{
+    position:absolute;
+    margin-bottom:3.5rem;
+    /* right:10px; */
+    width: 99vw;
+    height:50vh;
+    background:rgba(0,0,0,0.6);
+    text-align: center;
+    /* padding-top:50px; */
+
+
+}
+
+/* .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ */
+/* img{
+    height: 13rem;
+    
+} */
+/* 
+.landing h1{
+    font-size:30px;
+    color:#999;
+   /* margin-bottom:2rem; */
+/* }  */ *
+
+.landing p
+{
+font-size:20px;
+color:#999;
+margin-top:1rem;
+}
+
+.landing h2{
+text-align:center;
+margin-bottom:1rem;
+justify-content: center;
+color:#333;
+
+}
+
+.fa-forumbee{
+    height:10vh;
+    /* color:red; */
+}
+
+.countdown{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:40px;
+
+}
+
+.paragraph{
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.countdown div{
+    padding:10px;
+    border:1px solid rgb(248, 142, 2);
+    border-radius:7px;
+    margin:4px;
+    margin-top:20px;
+    opacity:.6;
+    height:4.5rem;
+    box-shadow:  1px 2px 2px 1px rgb(248, 142, 2);
+    background:rgb(0,0,0);
+    color:#999;
+}
+
+.countdown span{
+    display:block;
+    font-size:1.2rem
+}
+
+.countdown div:first-child{
+    background:orange;
+    color:whitesmoke;
+}
+
+@media screen and (max-width:650px){
+    /* img{
+        height:20%;
+    } */
+
+    .landing h1{
+        font-size:18px
+    }
+
+    .countdown div{
+    
+        font-size:14px;
+    }
+
+    .countdown span{
+      
+        font-size:12px;
+    }
+
+    .countdown{
+        display:block;
+
+    }
+
+    /* .countdown h2{
+        /* margin-bottom:2rem; */
+
+    /* } */ 
+}
+
+
+@media screen and (max-height:600px){
+
+    /* img{
+        height:10%;
+    } */
+
+    .landing h1{
+        font-size:rem;
+        padding-bottom:8px;
+    }
+    .landing h3{
+        font-size:.8rem;
+    }
+
+    p{
+        
+        font-size:.8rem;
+        font-weight:bold;
+    }
+
+
+    .landing.landing-inner{
+        margin-bottom:2rem;
+    }
+
+    
+
+   .landing.landing-inner.paragraph{
+        font-size:.5rem;
+        
+    }
+
+} 
+
+
+@media screen and (min-height:600px){
+
+    /* img{
+        height:10%;
+    } */
+
+    .landing h1{
+        font-size:rem;
+        padding-bottom:8px;
+    }
+    .landing h3{
+        font-size:.8rem;
+        margin-bottom:2rem;
+    }
+
+    p{
+        
+        font-size:.8rem;
+        font-weight:bold;
+    }
+
+
+    .landing.landing-inner{
+        margin-bottom:2rem;
+    }
+
+    
+
+   .landing.landing-inner.paragraph{
+        font-size:.5rem;
+        
+    }
+}
+
+/* events ending here */

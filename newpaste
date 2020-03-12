@@ -1,0 +1,51 @@
+
+
+<div class="banner" id="home">
+	<div class="layer">
+		<div class="container">
+			<div class="banner-text-w3pvt">
+				<!-- banner slider-->
+				<div class="csslider auto" id="slider1">
+					<input type="radio" name="slides"  id="slides_1" />
+					<input type="radio" name="slides" checked="checked" id="slides_2" />
+					<input type="radio" name="slides" id="slides_3" />
+					<div class="navigation">
+						<div>
+							<label for="slides_1"></label>
+							<label for="slides_2"></label>
+							<label for="slides_3"></label>
+						</div>
+					</div>
+					<ul class="banner_slide_bg">
+						<li>
+							 <div class="w3ls_banner_txt">
+								<h4 class="b-w3ltxt text-capitalize mt-md-4">Recruitment <strong> And</strong>Employment Services</h4>
+								<p class="w3ls_pvt-title my-3">We provide outsourcing services for firms that want to outsource parts or all their HR function</p>
+								<!-- <a href="services.php" class="btn btn-danger my-sm-3">Read More</a> -->
+							</div> 
+						</li>
+						<li>
+							<div class="w3ls_banner_txt">
+								<h4 class="b-w3ltxt text-capitalize mt-md-4 animate bounceInDown">Agency <span>Banking</span> </h4>
+								<p class="w3ls_pvt-title my-3 animate slideInUp">Get free POS and highly subsidized Bluetooth thermal printer for your agency banking business.</p>
+								<!-- <a href="services.php" class="btn btn-danger my-sm-3 mr-2">Read More</a> -->
+							</div>
+						</li>
+						<li>
+							<div class="w3ls_banner_txt">
+								<h4 class="b-w3ltxt text-capitalize mt-md-4">Enterpreneur <span>Couching</span> </h4>
+								<p class="w3ls_pvt-title my-3">Be a sub-agent to all the solar companies on the omnibranches platform and earn huge commissions </p>
+								<!-- <a href="services.php" class="btn btn-danger my-sm-3">Read More</a> -->
+							</div>
+						</li>
+						
+					</ul>
+					
+					
+				</div>
+				<!-- //banner slider-->
+			</div>
+		</div>
+	</div>
+</div>
+
